@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.indent {
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.flex-padding {
+    padding: 10px;
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+    border-bottom: solid;
+    border-width: 2px;
+}
+
+.card-number {
+    display: block;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.btn {
+    text-align: end;
+}
+
+.send {
+    cursor: pointer;
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.send:hover {
+    background-color:#4ec85b;
+    transition: 0.7s;
+}
+
+.button:focus {
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 4px #5a01a7;
+}
+
+.hidden {
+    display: none;
+}
+
+.disabled {
+    color: #fff;
+    background-color: #9d9d9d;
+    border-color: #9d9d9d;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.notification {
+    text-align: center;
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border-radius: 0.25rem;
+}
+
+.send-notification {
+    display: none;
+    position: fixed;
+    right: -8px;
+    top: -8px;
+    border: solid 2px #fff;
+    border-radius: 15px;
+    background-color: aqua;
+    font-size: 24px;
+    padding: 0.75rem 1.25rem
+}
+
+
